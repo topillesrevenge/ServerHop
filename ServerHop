@@ -8,7 +8,7 @@ for i,v in pairs(Servers.data) do
   end
 end
 
-wait (5)
+wait (10)
 
 
 local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
@@ -19,7 +19,7 @@ for i,v in pairs(Servers.data) do
 end
 
 
-wait (5)
+wait (10)
 
 
 local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
@@ -29,7 +29,7 @@ for i,v in pairs(Servers.data) do
   end
 end
 
-wait (5)
+wait (10)
 
 
 local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
@@ -40,7 +40,7 @@ for i,v in pairs(Servers.data) do
 end
 
 
-wait (5)
+wait (10)
 
 
 local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
