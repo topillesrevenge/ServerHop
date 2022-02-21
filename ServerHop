@@ -1,4 +1,4 @@
-wait (85)
+wait (95)
 
 
 local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
